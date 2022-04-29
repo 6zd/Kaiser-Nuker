@@ -2,6 +2,8 @@ import os
 from pystyle import Colors, Colorate
 import json
 
+os.system("title Kaiser Nuker")
+
 modules = ["discord", "discord.py", "requests", "pystyle"]
 try:
     import discord, requests, pystyle
@@ -17,8 +19,6 @@ import requests
 import threading
 import base64
 import random
-
-os.system("title Kaiser Nuker")
 
 os.system("cls")
 
