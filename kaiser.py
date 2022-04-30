@@ -44,6 +44,7 @@ kaiser.remove_command("help")
 
 
 banner = """
+
     ▄█   ▄█▄    ▄████████  ▄█     ▄████████    ▄████████    ▄████████ 
    ███ ▄███▀   ███    ███ ███    ███    ███   ███    ███   ███    ███ 
    ███▐██▀     ███    ███ ███▌   ███    █▀    ███    █▀    ███    ███ 
@@ -53,7 +54,10 @@ banner = """
    ███ ▀███▄   ███    ███ ███     ▄█    ███   ███    ███   ███    ███ 
    ███   ▀█▀   ███    █▀  █▀    ▄████████▀    ██████████   ███    ███ 
    ▀                                                       ███    ███ 
-                     Made by SWEET and Woods
+                      Made by SWEET and Woods
+
+
+
 """
 
 print(Colorate.Vertical(Colors.blue_to_purple, banner, 1, 0))
