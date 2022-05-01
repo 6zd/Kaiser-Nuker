@@ -1,6 +1,5 @@
 import os
 from pystyle import Colors, Colorate
-import json
 
 os.system("title Kaiser Nuker")
 
@@ -21,6 +20,7 @@ import requests
 import threading
 import base64
 import random
+import json
 
 os.system("cls")
 
