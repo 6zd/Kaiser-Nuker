@@ -6,7 +6,9 @@ os.system("title Kaiser Nuker")
 
 modules = ["discord", "discord.py", "requests", "pystyle"]
 try:
-    import discord, requests, pystyle
+    import discord
+    import requests
+    from pystyle import Colors, Colorate
 except ImportError:
     print(Colorate.Horizontal(Colors.purple_to_blue, " [!] Checking if you have the modules installed. . .", 1, 0))
     for libraries in modules:
@@ -65,7 +67,7 @@ print(Colorate.Vertical(Colors.blue_to_purple, banner, 1, 0))
 
 @kaiser.event
 async def on_ready():
-    print(Colorate.Horizontal(Colors.purple_to_blue, f"\n [+] Connected as: {kaiser.user}", 1, 0))
+    print(Colorate.Horizontal(Colors.purple_to_blue, f" [+] Connected as: {kaiser.user}", 1, 0))
     print(Colorate.Horizontal(Colors.purple_to_blue, f" [+] ID: {kaiser.user.id}", 1, 0))
     print(Colorate.Horizontal(Colors.purple_to_blue, f" [+] Type {prefix}help To view the Commands", 1, 0))
 
